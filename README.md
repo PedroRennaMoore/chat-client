@@ -1,3 +1,9 @@
+this project is hosted on: https://chat-pedromoore.web.app/
+
+test accounts: 
+pedro@gmail.com / 12345
+osvaldo@gmail.com / 12345
+
 Recently, I worked on a challenging project of a real-time online chat, which I developed from scratch, including the frontend, backend, and WebSocket.
 
 It was an intense and enriching experience as I had to deal with various areas of React and faced several bugs throughout the development. It was a significant challenge, but I was satisfied with the results achieved.
@@ -23,10 +29,3 @@ Here are some images of my Project.
 ![chat-add](https://github.com/PedroRennaMoore/chat-client/assets/113116512/24b5cb2d-f999-49af-afcb-cb4e4366ab9a)
 
 ![chat-notification](https://github.com/PedroRennaMoore/chat-client/assets/113116512/cc948295-047c-4ab3-9c4d-8378f9edb99b)
-
-this project is hosted on: https://chat-pedromoore.web.app/
-
-test accounts: 
-pedro@gmail.com / 12345
-osvaldo@gmail.com / 12345
-
