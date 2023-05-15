@@ -1,0 +1,56 @@
+.message {
+    display: flex;
+    
+}
+
+.message.own  {
+    justify-content: flex-end;
+}
+
+.message_text {
+    background: rgb(230, 230, 230);
+    padding: 5px 40px 5px 10px;
+    border-radius: 7px;
+    position: relative;
+    margin: 0 10px;
+    max-width: 50%;
+}
+
+.message_text p {
+    font-size: 14px;
+    font-weight: 300;
+    word-break: break-all;
+}
+
+.message.own .message_text {
+    background-color: rgb(175, 197, 218);
+}
+
+.message_text .hour {
+    font-size: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+}
+
+.select_conversation {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.select_conversation p {
+    font-weight: 300;
+}
+
+.social_media {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.social_media a {
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+}

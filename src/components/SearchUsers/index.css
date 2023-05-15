@@ -1,0 +1,116 @@
+.search_users {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    display: none;
+}
+
+.search_close {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+
+.search_close button {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 7px;
+}
+
+.search_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.search_input input {
+    width: 90%;
+    padding: 10px 10px 4px 0;
+    border: none;
+    border-bottom: 2px solid rgb(181, 181, 181);
+}
+
+.search_input input:focus {
+    outline: none;
+}
+
+.finded_users {
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.finded_users::-webkit-scrollbar {
+    width: 5px;
+}
+
+.finded_users::-webkit-scrollbar-thumb {
+    background: #dbdbdb;
+}
+
+.finded_users ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finded_users li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.finded_users li:hover {
+    background-color: rgb(239, 239, 239);
+    transition: .5s all;
+}
+
+.user_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user_info {
+    width: 130px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    white-space: nowrap;
+}
+
+.user_info p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.user_info p:hover {
+    animation: teste 7s forwards;
+    position: relative;
+    left: 0;
+}
+
+@keyframes teste {
+    from {left: 0}
+    to {left: -100%}
+}

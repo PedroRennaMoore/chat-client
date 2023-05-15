@@ -1,0 +1,44 @@
+.notification_button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+.notification_button_container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notification_button_container span {
+    font-size: 25px;
+    color: white;
+}
+
+.notification_number {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+}
+
+.notification_number span {
+    color: white;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 800px) {
+    .notification_button {
+        right: 9px;
+    }
+}

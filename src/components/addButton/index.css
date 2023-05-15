@@ -1,0 +1,42 @@
+.add_button .button {
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(43, 100, 174);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.disabled_button {
+    padding: 5px 10px;
+    color: rgb(88, 88, 88);
+    background-color: rgb(184, 184, 184);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.loading_button {
+    color: rgb(88, 88, 88);
+    background-color: rgb(184, 184, 184);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.loading_animation {
+    width: 15px;
+    height: 15px;
+    border: 1px dotted black;
+    border-radius: 50%;
+    animation: addButtonLoading 3s infinite;
+}
+
+@keyframes addButtonLoading {
+    from {transform: rotateZ(0);}
+    to {transform: rotateZ(360deg);}
+}
+
+

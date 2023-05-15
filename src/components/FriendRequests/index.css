@@ -1,0 +1,41 @@
+.request_list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sender_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.sender_img img {
+    width: 50px;
+    height: 50px;
+}
+
+.sender_info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 140px;
+    overflow: hidden;
+}
+
+.sender_info p {
+    font-weight: 300;
+}
+
+.accept_button button {
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,54 @@
+.friend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.friend:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.friend_infos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.friend_img {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.friend_img img {
+    width: 50px;
+    height: 50px;
+}
+
+.friend_name_message {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    max-width: 150px;
+    width: max-content;
+    overflow: hidden;
+}
+
+.friend_message p {
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+    .friend_name_message {
+         display: none;
+    }
+
+    .friend_infos {
+        justify-content: center;
+    }
+}
