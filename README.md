@@ -16,8 +16,10 @@ I am always looking for new challenges and projects that allow me to continue le
 
 Technologies used: HTML, CSS, JavaScript, React, WebSocket, Node.js, MySQL.
 
-Here you can check all client files(frontend), but you can also check the server: https://github.com/PedroRennaMoore/chat-server, 
-and the websocket: https://github.com/PedroRennaMoore/chat-websocket.
+Here you can check all client files(frontend), but you can also check other files:
+
+server: https://github.com/PedroRennaMoore/chat-server, 
+websocket: https://github.com/PedroRennaMoore/chat-websocket.
 
 Here are some images of my Project.
 
