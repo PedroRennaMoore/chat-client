@@ -1,4 +1,4 @@
-this project is hosted on: https://chat-pedromoore.web.app/
+this project is hosted in: https://chat-pedromoore.web.app/
 
 test accounts: 
 pedro@gmail.com / 12345
